@@ -29,39 +29,65 @@
         </div>
     </div>
 
-    <main class="servicios contenedor">
+    <div class="contenedor">
+        <main class="servicios">
 
-        <h2>Nuestros Servicios</h2>
-        <div class="contenedor-servicios">
-            <div class="servicio">
-                <h3>Diseño Web</h3>
-                <div class="iconos">
-                    <i class="fas fa-pen-fancy"></i>
+            <h2>Nuestros Servicios</h2>
+            <div class="contenedor-servicios">
+                <div class="servicio">
+                    <h3>Diseño Web</h3>
+                    <div class="iconos">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <p>Nullam ornare blandit massa, a cursus arcu euismod commodo. Nullam nec lorem placerat, luctus sapien hendrerit, convallis libero. </p>            </div>
+                <div class="servicio">
+                    <h3>Aplicaciones Móviles</h3>
+                    <div class="iconos">
+                        <i class="fab fa-android"></i>
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <p>Nullam ornare blandit massa, a cursus arcu euismod commodo. Nullam nec lorem placerat, luctus sapien hendrerit, convallis libero.</p>
                 </div>
-                <p>Nullam ornare blandit massa, a cursus arcu euismod commodo. Nullam nec lorem placerat, luctus sapien hendrerit, convallis libero. </p>            </div>
-        </div>
-        <div class="contenedor-servicios">
-            <div class="servicio">
-                <h3>Aplicaciones Móviles</h3>
-                <div class="iconos">
-                    <i class="fab fa-android"></i>
-                    <i class="fab fa-apple"></i>
-                </div>
-                <p>Nullam ornare blandit massa, a cursus arcu euismod commodo. Nullam nec lorem placerat, luctus sapien hendrerit, convallis libero.</p>
+                <div class="servicio">
+                    <h3>Social Media</h3>
+                    <div class="iconos">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <p>Nullam ornare blandit massa, a cursus arcu euismod commodo. Nullam nec lorem placerat, luctus sapien hendrerit, convallis libero.</p>            </div>
             </div>
-        </div>
-        <div class="contenedor-servicios">
-            <div class="servicio">
-                <h3>Social Media</h3>
-                <div class="iconos">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter"></i>
+
+        </main>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form action="#">
+                <legend>Contáctanos llenando todos los campos</legend>
+                
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono:</label>
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Correo:</label>
+                        <input type="mail" name="correo" placeholder="Correo">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Mensaje:</label>
+                        <textarea></textarea>
+                    </div>
                 </div>
-                <p>Nullam ornare blandit massa, a cursus arcu euismod commodo. Nullam nec lorem placerat, luctus sapien hendrerit, convallis libero.</p>            </div>
-        </div>
-
-    </main>
-
+                <div class="enviar">
+                    <input type="submit" class="boton" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </div>
 </body>
 
 </html>
